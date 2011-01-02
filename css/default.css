@@ -11,7 +11,7 @@ p {
     line-height: 25px;
 }
 
-h1 {
+h1, h1 a {
 	font-size: 60px;
 	width: 100%;
 	text-align: center;
@@ -19,6 +19,7 @@ h1 {
     font-family: 'Cardo';
     color: #044E7A;
     padding-top: 25px;
+    text-decoration: none;
 }
 
 h2 {
@@ -29,12 +30,16 @@ h2 {
 	/*border-bottom: 1px solid #99C;*/
 }
 
-div.postspanish h2, div.postspanish h2 a {
+div.postspanish h2, div.postspanish h2 a, div.postspanish a {
     text-decoration: none;
     color: #FA6900;
 }
 
-div.postenglish h2, div.postenglish h2 a {
+div.postspanish p a:hover, div.postenglish p a:hover {
+    text-decoration: underline;
+}
+
+div.postenglish h2, div.postenglish h2 a, div.postenglish a {
     text-decoration: none;
     color: #376F7B;
 }
