@@ -1,5 +1,10 @@
-<html>
-<body>
-    <h1>Halloa!</h1>
-</body>
-</html>
+---
+layout: default
+title: Posts
+---
+
+{% for post in site.posts limit:5 %}
+
+{% include post.liquid %}
+
+{% endfor %}
