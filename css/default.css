@@ -1,7 +1,7 @@
 body {
-	font-family: Palatino, Georgia, serif;
+	font-family: 'Open Sans', serif;
 	font-size: 18px;
-    background: #E0E4CC;
+    background: #F5F8FA;
 }
 
 /* container and cell make vertical centering possible */
@@ -19,18 +19,18 @@ div.cell {
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 110px;
 	width: 100%;
 	text-align: center;
     font-weight: normal;
-    font-family: 'Cardo';
-    color: #044E7A;
+    font-family: 'Open Sans Condensed';
+    color: #577181;
     text-decoration: none;
     margin: 0px;
 }
 
 h1 span.surname {
-    color: #FA6900;
+    color: #CAAB84;
 }
 
 p.links {
@@ -42,7 +42,7 @@ p.links {
 
 p.links a {
     text-decoration: none;
-    color: #376F7B;
+    color: black;
 }
 
 p.links a:hover {
