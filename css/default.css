@@ -24,13 +24,13 @@ h1 {
 	text-align: center;
     font-weight: normal;
     font-family: 'Open Sans Condensed';
-    color: #577181;
+    color: #567D97;
     text-decoration: none;
     margin: 0px;
 }
 
 h1 span.surname {
-    color: #CAAB84;
+    color: black;
 }
 
 p.links {
